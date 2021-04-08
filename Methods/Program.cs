@@ -36,8 +36,20 @@ namespace Methods
             product5.Price = 20;
             product5.Stock = 0;
 
+            Product product6 = new Product();
+            product6.Categorry = "Ev Aletleri";
+            product6.ProductName = "Arzum Tost Makinesi";
+            product6.Price = 249;
+            product6.Stock = 100;
+
+            Product product7 = new Product();
+            product7.Categorry = "Spor Giyim";
+            product7.ProductName = "Fenerbahçe 2020 Efsane Çubuklu Forma";
+            product7.Price = 280;
+            product7.Stock = 100;
+
             Product[] products = new Product[] 
-            { product1, product2, product3, product4, product5 };
+            { product1, product2, product3, product4, product5, product6, product7 };
 
             foreach (Product product in products)
             {
@@ -50,7 +62,7 @@ namespace Methods
             Console.WriteLine("-----METHOSTS------");
 
             SepetManager sepetManager = new SepetManager();
-            sepetManager.Add(product5);
+            sepetManager.Add(product7);
         }
     }
 }
