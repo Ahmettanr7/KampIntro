@@ -27,6 +27,7 @@ namespace ClassMetotDemo
             Customer[] customers = new Customer[]
             {customer1, customer2, customer3};
 
+
             foreach (Customer customer in customers)
             {
                 Console.WriteLine(customer.Id);
