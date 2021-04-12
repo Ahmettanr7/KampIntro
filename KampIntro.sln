@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{18F284DB-366B-45AF-B0EA-201222CC1542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{E4127057-29A2-467B-9EE4-F54CF9D7D325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{E4127057-29A2-467B-9EE4-F54CF9D7D325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{71911BC4-DA08-4249-B10E-CCFB48440618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{71911BC4-DA08-4249-B10E-CCFB48440618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject", "GameProject\GameProject.csproj", "{84D7B923-D89E-46F1-A777-0DE70F50826A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{71911BC4-DA08-4249-B10E-CCFB48440618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71911BC4-DA08-4249-B10E-CCFB48440618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71911BC4-DA08-4249-B10E-CCFB48440618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D7B923-D89E-46F1-A777-0DE70F50826A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D7B923-D89E-46F1-A777-0DE70F50826A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D7B923-D89E-46F1-A777-0DE70F50826A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D7B923-D89E-46F1-A777-0DE70F50826A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
